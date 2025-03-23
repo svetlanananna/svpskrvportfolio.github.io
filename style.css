@@ -1,0 +1,231 @@
+html{
+   font-size:15px;
+}
+
+body{
+   margin:0;
+   font-family: "Montserrat", sans-serif;
+   font-size: 1rem;
+   
+    background: url("сайт/hhaa.jpg") right center no-repeat;
+   
+}
+
+.container {
+    width: 100%;
+    max-width:1200px;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin:0 auto;
+}
+
+.header {
+    padding:1.2rem 0 ;
+     margin-top:1.2rem;
+}
+
+.header_inner {
+    display:flex;
+    justify-content: space-between;
+}
+
+.user {
+    display:flex;
+}
+
+.user_avatar{
+    width: 57px;
+    height: 57px;
+    margin-right:10px;
+
+    img{
+       border-radius: 50%;
+    }
+}
+
+.user_name{
+    font-size: 1.06 rem;
+    line-height: 1.2;
+    color:black;
+    font-weight: 700;
+}
+
+.user_prof{
+    font-size: 0.8rem;
+    color:#561819;
+}
+
+.nav{
+     display:flex;
+     align-items: center;
+     height:100%;
+}
+
+.nav_link{
+    margin-right:4rem;
+    padding:1.1rem 3rem;
+    font-size: 0.93rem;
+    color:black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration:none;
+    border: 2px solid #561819;
+    border-radius: 20px; 
+     
+}
+
+.intro{
+   padding-top:250 px;
+   
+}
+
+
+.intro_inner{
+     display:flex;
+     background: url("сайт/mocc.png") right center no-repeat;
+     margin-top:50px;
+}
+
+.intro_content{
+     width:50%
+}
+
+.intro_stitle{
+    font-size:4.26rem;
+    color:black;
+    font-weight:400;
+}
+
+.intro_title{
+    margin-top:-40px;
+    margin-bottom:4px;
+    font-size:7rem;
+    color:black;
+    font-weight:700;
+}
+ 
+.intro_text{
+    font-size:3rem;
+    color:black;
+   
+}
+
+
+.intro_photo{
+     width:50%
+}
+
+h1, h2, h3, h4, h5, h6, {
+     margin:0;
+}
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 1.2rem 1.8rem;
+    min-width: 170px;
+    margin-top:20px;
+    margin-left:100px;
+    font-size:1.06 rem;
+    color:black;
+    line-height: 1.1;
+    text-transform:uppercase;
+    text-decoration:none;
+    border:2px solid #561819;
+    border-radius:30px;
+    background:none;
+    font-family:inherit;
+    cursor: pointer;
+    text-align:center;
+    font-weight:700;
+   
+}
+
+.intro_inneral{
+     display:flex;
+     background: url("сайт/hss.png") right center no-repeat;
+     margin-top:50px;
+}
+
+.intro_stitlesa{
+    font-size:1.9rem;
+    color:#561819;
+    font-weight:400;
+}
+
+.hero {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.projects {
+    padding: 50px 0;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.project-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.project-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.project-item a {
+    text-decoration: none;
+    color: #800000; 
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 2px solid #800000;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.project-item a:hover {
+    background-color: #800000;
+    color: #fff;
+}
+
+.poka{
+      text-align:center;
+      
+}
